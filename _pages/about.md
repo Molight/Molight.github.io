@@ -41,10 +41,6 @@ I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of F
 
 ## 关于本站 / About this site
 
-本站基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 模板（fork 自 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll Theme），由 GitHub Pages 自动部署。
-
-This site is built on the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template, auto-deployed via GitHub Pages.
-
 内容版块 / Sections：
 
 - 📄 [Publications](/publications/) — 论文发表

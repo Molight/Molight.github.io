@@ -24,13 +24,13 @@ repository               : "Molight/Molight.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Molight"
+  name             : "Yibin Dong 董怡斌"
   pronouns         : # example: "she/her"
-  bio              : "Postdoctoral researcher. Research interests: [待补充]"
+  bio              : "Postdoctoral researcher. Research interests: radiation damage in structural materials, FeCrAl alloys, molecular dynamics and first-principles calculations."
   location         : "Qingdao, China"
-  employer         : "[待补充]"
+  employer         : "[待补充 - master 请告知]"
   uri              : https://Molight.github.io
-  email            : "[待补充]"
+  email            : "[待补充 - master 请告知]"
 
   # Academic websites
   academia         : # URL
@@ -38,12 +38,12 @@ author:
   googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0000-0003-3933-5783"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
   researchgate     : # URL
-  scopus           : # URL
+  scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=57552229300"
   zotero           : # URL
 
 

@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Molight",
+    "name": "Yibin Dong 董怡斌",
     "email": "[待补充]",
     "phone": "",
     "website": "https://Molight.github.io",
-    "summary": "Postdoctoral researcher at [待补充]. Research interests: [待补充].",
+    "summary": "Postdoctoral researcher. Research interests: radiation damage in structural materials, FeCrAl alloys, molecular dynamics and first-principles calculations.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -14,19 +14,24 @@
     },
     "profiles": [
       {
+        "network": "ORCID",
+        "username": "0000-0003-3933-5783",
+        "url": "https://orcid.org/0000-0003-3933-5783"
+      },
+      {
+        "network": "Scopus",
+        "username": "57552229300",
+        "url": "http://www.scopus.com/inward/authorDetails.url?authorID=57552229300"
+      },
+      {
+        "network": "SciProfiles",
+        "username": "2418199",
+        "url": "https://sciprofiles.com/profile/2418199"
+      },
+      {
         "network": "GitHub",
         "username": "Molight",
         "url": "https://github.com/Molight"
-      },
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": ""
       }
     ]
   },
@@ -35,7 +40,7 @@
     {
       "institution": "[待补充]",
       "area": "[研究方向]",
-      "studyType": "Ph.D",
+      "studyType": "Ph.D.",
       "startDate": "",
       "endDate": "",
       "gpa": "",

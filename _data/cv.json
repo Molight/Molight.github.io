@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yibin Dong 董怡斌",
-    "email": "[待补充]",
+    "email": "yibindong@sdu.edu.cn",
     "phone": "",
     "website": "https://Molight.github.io",
-    "summary": "Postdoctoral researcher. Research interests: radiation damage in structural materials, FeCrAl alloys, molecular dynamics and first-principles calculations.",
+    "summary": "Postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao). PhD in Condensed Matter Physics from Shandong University (2025). Research interests: atomistic simulations of defects, interfaces and their motions; plastic deformation and fracture mechanisms; multiscale computational methods (LAMMPS / VASP / CP2K).",
     "location": {
-      "address": "",
+      "address": "No.72 Binhai Road",
       "postalCode": "",
       "city": "Qingdao",
       "countryCode": "CN",
@@ -33,22 +33,78 @@
         "username": "Molight",
         "url": "https://github.com/Molight"
       }
-    ]
+    ],
+    "label": "Postdoctoral Researcher"
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Shandong University, Institute of Frontier and Interdisciplinary Science",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2026-01",
+      "endDate": "present",
+      "summary": "Cooperative professor: Prof. Ning Gao (高宁). Research on radiation damage mechanisms via atomistic simulations."
+    }
+  ],
   "education": [
     {
-      "institution": "[待补充]",
-      "area": "[研究方向]",
-      "studyType": "Ph.D.",
-      "startDate": "",
-      "endDate": "",
+      "institution": "Shandong University",
+      "area": "Condensed Matter Physics (successive postgraduate and doctoral programs)",
+      "studyType": "PhD",
+      "startDate": "2020",
+      "endDate": "2025",
+      "gpa": "",
+      "courses": [],
+      "thesis": "Computational Simulation of Radiation Damage in Grain Boundaries and Phase Boundaries in Metal Materials",
+      "advisor": "Prof. Ning Gao"
+    },
+    {
+      "institution": "Shandong University",
+      "area": "Physics",
+      "studyType": "BSc",
+      "startDate": "2015",
+      "endDate": "2019",
       "gpa": "",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Computational Methods",
+      "keywords": [
+        "Molecular Dynamics (LAMMPS)",
+        "Density Functional Theory (VASP)",
+        "Ab initio Molecular Dynamics (CP2K)"
+      ]
+    },
+    {
+      "name": "Simulation Areas",
+      "keywords": [
+        "Radiation Damage",
+        "Fracture Mechanics",
+        "Shock Loading",
+        "Phase Transformations"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Fortran",
+        "MATLAB",
+        "Shell"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [],
@@ -107,5 +163,6 @@
       "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
     }
   ],
-  "awards": []
+  "awards": [],
+  "volunteer": []
 }

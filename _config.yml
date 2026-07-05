@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Yibin Dong 董怡斌"
   pronouns         : # example: "she/her"
-  bio              : "Postdoctoral researcher. Research interests: radiation damage in structural materials, FeCrAl alloys, molecular dynamics and first-principles calculations."
-  location         : "Qingdao, China"
-  employer         : "[待补充 - master 请告知]"
+  bio              : "Postdoctoral researcher at Shandong University. Research interests: atomistic simulations of defects, interfaces and their motions; computational simulation of plastic deformation and fracture in materials; multiscale computational methods (MD / DFT / AIMD)."
+  location         : "Qingdao, Shandong, China"
+  employer         : "Shandong University, Institute of Frontier and Interdisciplinary Science"
   uri              : https://Molight.github.io
-  email            : "[待补充 - master 请告知]"
+  email            : "yibindong@sdu.edu.cn"
 
   # Academic websites
   academia         : # URL

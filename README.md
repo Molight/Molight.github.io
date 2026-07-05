@@ -50,14 +50,10 @@ bundle exec jekyll serve -l -H 0.0.0.0
 
 ## 待补充清单 / TODO
 
-- [ ] 邮箱、单位、研究方向 → `_config.yml` → `author.email`, `author.employer`, `author.bio`
-- [ ] 学术档案链接 → `_config.yml` → `author.googlescholar`, `author.orcid` 等
-- [ ] 头像照片 → `images/profile.png`（替换当前的 M 占位符）
-- [ ] 简介文字 → `_pages/about.md`
-- [ ] CV 内容 → `_pages/cv.md` 或 `_data/cv.json`
-- [ ] 真实论文 → `_publications/`
-- [ ] 真实博客 → `_posts/`
-- [ ] 真实讲座 → `_talks/`
-- [ ] 真实项目 → `_portfolio/`
-- [ ] 真实教学 → `_teaching/`
-- [ ] 删除所有 `0001-01-01-example-*` 占位文件
+- [ ] 头像照片 → 替换 `images/profile.png`（当前是 M 占位符）
+- [ ] 下载版 CV PDF → 放 `files/Yibin_Dong_CV.pdf`，然后在 `_pages/cv.md` 加下载链接
+- [ ] Google Scholar 链接（如有） → `_config.yml` → `author.googlescholar`
+- [ ] 第一篇博客文章（`_posts/`）
+- [ ] 真实教学经历（如有）→ `_teaching/`
+- [ ] 删除 `0001-01-01-example-*` 占位文件（已部分完成：仅剩 `_teaching/example-teaching.md`）
+

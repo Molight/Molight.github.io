@@ -7,9 +7,7 @@ redirect_from:
   - about.html
 ---
 
-# Welcome
-
-I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao, China).
+I am **Yibin Dong（董怡斌）**, a postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao, China).
 
 ## Education
 

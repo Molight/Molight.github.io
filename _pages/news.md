@@ -15,6 +15,7 @@ Recent updates on papers, talks, awards, and milestones.
 
 ## 2026
 
+- **(2026-07-03)** Won **Best Poster Award** at the 18th International Conference on Multi-scale Computational Modeling of Materials (第18届材料多尺度计算模拟国际会议).
 - **(2026-03)** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
 
 ## 2025

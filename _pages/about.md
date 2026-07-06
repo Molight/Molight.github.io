@@ -29,6 +29,7 @@ I am **Yibin Dong（董怡斌）**, a postdoctoral researcher at the Institute o
 
 > Full timeline: see [News](/news/). Last updated 2026-06.
 
+- **[2026-07-03]** Won **Best Poster Award** at the 18th International Conference on Multi-scale Computational Modeling of Materials (第18届材料多尺度计算模拟国际会议).
 - **[2026-03]** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
 - **[2025-10]** Our paper *"Improved radiation resistance in metals via adaptive martensitic transformation"* has been accepted in **Nature Communications** *(co-first author)*.
 - **[2025-08]** Our paper *"Enhanced radiation resistance by periodic patterning"* has been accepted in **Acta Materialia**.

@@ -24,7 +24,7 @@
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
           <li id="lang-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="lang-label" id="lang-button" data-lang-current="en"><span id="lang-label" class="lang-toggle-label">中文</span></a>
+            <a href="#" role="button" aria-labelledby="lang-label" id="lang-button" data-lang-current="en" onclick="window.__toggleLang && window.__toggleLang(event); return false;"><span id="lang-label" class="lang-toggle-label">中文</span></a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -34,34 +34,26 @@
 </div>
 
 <script>
-  // Language toggle: persist user choice across reloads.
+  // Language toggle (inline onclick = robust, no DOMContentLoaded race)
+  window.__toggleLang = function(ev) {
+    if (ev) ev.preventDefault();
+    var cur = document.documentElement.getAttribute('data-lang') || 'en';
+    var next = (cur === 'en') ? 'zh' : 'en';
+    document.documentElement.setAttribute('data-lang', next);
+    document.documentElement.setAttribute('lang', next === 'zh' ? 'zh-CN' : 'en');
+    try { localStorage.setItem('site-lang', next); } catch(e) {}
+    var label = document.getElementById('lang-label');
+    if (label) label.textContent = (next === 'zh') ? 'English' : '中文';
+  };
+
+  // On page load, restore lang from localStorage; default = en.
   (function() {
     var stored = null;
     try { stored = localStorage.getItem('site-lang'); } catch(e) {}
     var lang = (stored === 'zh' || stored === 'en') ? stored : 'en';
     document.documentElement.setAttribute('data-lang', lang);
     document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
-
-    function updateButton(l) {
-      var btn = document.getElementById('lang-button');
-      var label = document.getElementById('lang-label');
-      if (btn) btn.setAttribute('data-lang-current', l);
-      if (label) label.textContent = (l === 'zh') ? 'English' : '中文';
-    }
-    updateButton(lang);
-
-    document.addEventListener('DOMContentLoaded', function() {
-      var btn = document.getElementById('lang-button');
-      if (!btn) return;
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        var cur = document.documentElement.getAttribute('data-lang') || 'en';
-        var next = (cur === 'en') ? 'zh' : 'en';
-        document.documentElement.setAttribute('data-lang', next);
-        document.documentElement.setAttribute('lang', next === 'zh' ? 'zh-CN' : 'en');
-        try { localStorage.setItem('site-lang', next); } catch(e) {}
-        updateButton(next);
-      });
-    });
+    var label = document.getElementById('lang-label');
+    if (label) label.textContent = (lang === 'zh') ? 'English' : '中文';
   })();
 </script>

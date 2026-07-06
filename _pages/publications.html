@@ -7,107 +7,62 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% comment %}Compiled list of publications, grouped by year, with per-year numbering.{% endcomment %}
+
+<div class="wordwrap" style="margin: 0.5em 0 1em 0;">
+  Papers are also visible at <a href="https://orcid.org/0000-0003-3933-5783">https://orcid.org/0000-0003-3933-5783</a>.
+</div>
 
 <style>
-  .pub-chart {
-    margin: 1.5em 0 2em 0;
-    padding: 1em 1.2em;
-    border: 1px solid var(--global-border-color, #e0e0e0);
-    border-radius: 6px;
-    background: var(--global-bg-color, #fafafa);
-  }
-  .pub-chart-title {
-    font-weight: 600;
-    font-size: 1em;
-    margin-bottom: 0.8em;
-  }
-  .pub-chart-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 6px;
-    font-size: 0.92em;
-  }
-  .pub-chart-year {
-    width: 48px;
-    color: var(--global-text-color, #333);
-  }
-  .pub-chart-bar-wrap {
-    flex: 1;
-    background: rgba(0,0,0,0.04);
-    height: 18px;
-    border-radius: 3px;
-    overflow: hidden;
-    margin: 0 8px;
-  }
-  .pub-chart-bar {
-    height: 100%;
-    background: linear-gradient(90deg, #4a90e2, #357abd);
-    border-radius: 3px;
-  }
-  .pub-chart-count {
-    width: 28px;
-    text-align: right;
-    color: var(--global-text-color, #555);
-  }
   .pub-year-heading {
-    margin-top: 1.5em;
-    border-bottom: 1px solid var(--global-border-color, #e0e0e0);
-    padding-bottom: 4px;
+    margin-top: 2em;
+    padding-top: 0.6em;
+  }
+  .pub-year-heading .year-rule {
+    border: none;
+    border-top: 1px solid var(--global-border-color, #e0e0e0);
+    margin: 0.2em 0;
   }
   .pub-year-heading h2 {
-    margin-bottom: 0;
+    margin: 0.4em 0 0.2em 0;
+  }
+  .pub-year-heading hr.bottom {
+    border: none;
+    border-top: 1px solid var(--global-border-color, #e0e0e0);
+    margin: 0.2em 0 0.6em 0;
+  }
+  .pub-numbered {
+    list-style-type: decimal;
+    padding-left: 2em;
+    margin-bottom: 1em;
+  }
+  .pub-numbered > li {
+    margin-bottom: 0.8em;
   }
 </style>
 
-{% comment %}柱状图数据：手工硬编码已知年份及对应论文数（2022-2025年，共8篇）{% endcomment %}
-{% assign chart2025 = 0 %}{% assign chart2024 = 0 %}{% assign chart2023 = 0 %}{% assign chart2022 = 0 %}
-{% for pub in site.publications %}
-  {% assign y = pub.date | date: "%Y" %}
-  {% if y == "2025" %}{% assign chart2025 = chart2025 | plus: 1 %}{% endif %}
-  {% if y == "2024" %}{% assign chart2024 = chart2024 | plus: 1 %}{% endif %}
-  {% if y == "2023" %}{% assign chart2023 = chart2023 | plus: 1 %}{% endif %}
-  {% if y == "2022" %}{% assign chart2022 = chart2022 | plus: 1 %}{% endif %}
-{% endfor %}
-{% assign chart_max = chart2025 %}{% if chart2024 > chart_max %}{% assign chart_max = chart2024 %}{% endif %}{% if chart2023 > chart_max %}{% assign chart_max = chart2023 %}{% endif %}{% if chart2022 > chart_max %}{% assign chart_max = chart2022 %}{% endif %}
-
-<div class="pub-chart">
-  <div class="pub-chart-title">📊 按年发表论文数量 / Publications by year</div>
-
-  <div class="pub-chart-row">
-    <span class="pub-chart-year">2025</span>
-    <div class="pub-chart-bar-wrap"><div class="pub-chart-bar" style="width: {{ chart2025 | times: 100 | divided_by: chart_max }}%;"></div></div>
-    <span class="pub-chart-count">{{ chart2025 }}</span>
-  </div>
-  <div class="pub-chart-row">
-    <span class="pub-chart-year">2024</span>
-    <div class="pub-chart-bar-wrap"><div class="pub-chart-bar" style="width: {{ chart2024 | times: 100 | divided_by: chart_max }}%;"></div></div>
-    <span class="pub-chart-count">{{ chart2024 }}</span>
-  </div>
-  <div class="pub-chart-row">
-    <span class="pub-chart-year">2023</span>
-    <div class="pub-chart-bar-wrap"><div class="pub-chart-bar" style="width: {{ chart2023 | times: 100 | divided_by: chart_max }}%;"></div></div>
-    <span class="pub-chart-count">{{ chart2023 }}</span>
-  </div>
-  <div class="pub-chart-row">
-    <span class="pub-chart-year">2022</span>
-    <div class="pub-chart-bar-wrap"><div class="pub-chart-bar" style="width: {{ chart2022 | times: 100 | divided_by: chart_max }}%;"></div></div>
-    <span class="pub-chart-count">{{ chart2022 }}</span>
-  </div>
-</div>
-
-{% comment %}按年分组列出论文（利用 group_by 过滤器）{% endcomment %}
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 {% assign prev_year = "" %}
+
 {% for post in sorted_pubs %}
   {% assign y = post.date | date: "%Y" %}
   {% if y != prev_year %}
+    {% if prev_year != "" %}
+      </ol>
+    {% endif %}
     <div class="pub-year-heading">
-      <h2 id="year-{{ y }}">{{ y }}</h2><hr />
+      <hr class="year-rule" />
+      <hr class="year-rule" />
+      <h2 id="year-{{ y }}">{{ y }}</h2>
+      <hr class="bottom" />
     </div>
+    <ol class="pub-numbered" start="1">
   {% endif %}
-  {% include archive-single.html %}
+  <li>
+    {% include archive-single.html %}
+  </li>
   {% assign prev_year = y %}
 {% endfor %}
+{% if prev_year != "" %}
+  </ol>
+{% endif %}

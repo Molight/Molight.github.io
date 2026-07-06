@@ -79,3 +79,26 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* Language toggle */
+#lang-toggle {
+  cursor: pointer;
+  a {
+    cursor: pointer;
+  }
+}
+.lang-toggle-label {
+  font-size: 0.85em;
+  padding: 0.2em 0.5em;
+  border: 1px solid var(--global-border-color, #ccc);
+  border-radius: 3px;
+  color: var(--global-text-color);
+}
+#lang-toggle a:hover .lang-toggle-label {
+  background: var(--global-border-color, #eee);
+}
+
+/* Language visibility: default = English (data-lang="en"). */
+/* Chinese content hidden when lang=en, English hidden when lang=zh. */
+[data-lang="en"] .lang-zh { display: none !important; }
+[data-lang="zh"] .lang-en { display: none !important; }

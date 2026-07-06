@@ -62,6 +62,9 @@
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a></li>
+      {% endif %}
       {% if author.sciprofiles %}
         <li><a href="https://sciprofiles.com/profile/{{ author.sciprofiles }}"><i class="ai ai-google-scholar icon-pad-right" aria-hidden="true"></i>SciProfiles</a></li>
       {% endif %}

@@ -43,9 +43,9 @@ I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of F
 
 内容版块 / Sections：
 
-- 📄 [Publications](/publications/) — 论文发表
+- 📄 [Publication](/publications/) — 论文发表
 - 🎤 [Talks](/talks/) — 学术会议报告
-- 📚 [Teaching](/teaching/) — 教学经历
+- 📰 [News](/news/) — 最新动态
 
 ---
 

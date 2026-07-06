@@ -5,32 +5,121 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<!-- 按年份统计论文数（用于柱状图） -->
+{% assign pubs_by_year = site.publications | group_by: "date" | sort: "name" | reverse %}
+{% assign year_counts = "" | split: "" %}
+{% assign current_year = "" %}
+{% assign current_count = 0 %}
+{% assign all_years = "" | split: "" %}
+{% assign all_counts = "" | split: "" %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% for pub in site.publications %}
+  {% assign y = pub.date | date: "%Y" %}
+  {% if y != current_year %}
+    {% if current_year != "" %}
+      {% assign all_years = all_years | push: current_year %}
+      {% assign all_counts = all_counts | push: current_count %}
+    {% endif %}
+    {% assign current_year = y %}
+    {% assign current_count = 1 %}
+  {% else %}
+    {% assign current_count = current_count | plus: 1 %}
+  {% endif %}
+  {% if forloop.last %}
+    {% assign all_years = all_years | push: current_year %}
+    {% assign all_counts = all_counts | push: current_count %}
+  {% endif %}
+{% endfor %}
+
+{% assign max_count = all_counts | first %}
+{% for c in all_counts %}
+  {% if c > max_count %}{% assign max_count = c %}{% endif %}
+{% endfor %}
+
+<style>
+  .pub-chart {
+    margin: 1.5em 0 2em 0;
+    padding: 1em 1.2em;
+    border: 1px solid var(--global-border-color, #e0e0e0);
+    border-radius: 6px;
+    background: var(--global-bg-color, #fafafa);
+  }
+  .pub-chart-title {
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.8em;
+  }
+  .pub-chart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 0.92em;
+  }
+  .pub-chart-year {
+    width: 48px;
+    color: var(--global-text-color, #333);
+  }
+  .pub-chart-bar-wrap {
+    flex: 1;
+    background: rgba(0,0,0,0.04);
+    height: 18px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 8px;
+  }
+  .pub-chart-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4a90e2, #357abd);
+    border-radius: 3px;
+    transition: width 0.6s ease;
+  }
+  .pub-chart-count {
+    width: 28px;
+    text-align: right;
+    color: var(--global-text-color, #555);
+  }
+  .pub-year-heading {
+    margin-top: 1.5em;
+    border-bottom: 1px solid var(--global-border-color, #e0e0e0);
+    padding-bottom: 4px;
+  }
+  .pub-year-heading h2 {
+    margin-bottom: 0;
+  }
+</style>
+
+<div class="pub-chart">
+  <div class="pub-chart-title">📊 按年发表论文数量 / Publications by year</div>
+  {% for i in (0..all_years.size) | minus: 1 %}
+    {% assign y = all_years[i] %}
+    {% assign c = all_counts[i] %}
+    {% assign width_pct = c | times: 100 | divided_by: max_count %}
+    <div class="pub-chart-row">
+      <span class="pub-chart-year">{{ y }}</span>
+      <div class="pub-chart-bar-wrap">
+        <div class="pub-chart-bar" style="width: {{ width_pct }}%;"></div>
+      </div>
+      <span class="pub-chart-count">{{ c }}</span>
+    </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</div>
 
-
-
+<!-- 按年分组列出论文 -->
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% assign prev_year = "" %}
+{% for pub in sorted_pubs %}
+  {% assign y = pub.date | date: "%Y" %}
+  {% if y != prev_year %}
+    <div class="pub-year-heading">
+      <h2 id="year-{{ y }}">{{ y }}</h2><hr />
+    </div>
+  {% endif %}
+  {% include archive-single.html %}
+  {% assign prev_year = y %}
+{% endfor %}

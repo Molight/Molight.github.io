@@ -29,11 +29,9 @@ I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of F
 
 ## 教育经历 / Education
 
-> 📌 **待 master 补充**。请告知学校 / 学位 / 时间，格式如下：
-
-- 🎓 **博士 PhD in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
-- 🎓 **硕士 MSc in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
-- 🎓 **学士 BSc in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
+- 🎓 **博士后 Postdoctoral Researcher** — 山东大学前沿交叉科学研究院 / Shandong University, 2026 – Present
+- 🎓 **博士 PhD in Condensed Matter Physics** — 山东大学 / Shandong University, 2020 – 2025
+- 🎓 **学士 BSc in Physics** — 山东大学 / Shandong University, 2015 – 2019
 
 > 注：联系方式已在右侧头像下方的"Follow"链接中（Email / ORCID / Scopus / GitHub / SciProfiles / Affiliation），桌面端默认展开。
 

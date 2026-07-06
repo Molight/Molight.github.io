@@ -199,6 +199,26 @@
   }
 }
 
+.sidebar .author__contact {
+  display: block;
+  margin: -8px 0 6px 0;
+  padding-left: 24px;
+  font-size: $type-size-7;
+  line-height: 1.3;
+  word-break: break-all;
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+    opacity: 0.85;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}
+
 .author__pronouns {
   margin: 0;
 

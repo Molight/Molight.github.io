@@ -9,9 +9,9 @@ redirect_from:
 
 # 欢迎 / Welcome
 
-我是 **董怡斌（Yibin Dong）**，山东大学前沿交叉科学研究院博士后研究员（合作导师：高宁教授），研究方向：
+我是 **董怡斌（Yibin Dong）**，山东大学前沿交叉科学研究院博士后研究员，研究方向：
 
-I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao, China), under the supervision of Prof. Ning Gao.
+I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao, China).
 
 ---
 

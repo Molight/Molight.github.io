@@ -1,15 +1,14 @@
 # The following is the order of the links in the header of the website.
-# nav titles are split into en/zh, hidden by [data-lang] CSS.
 
 main:
-  - title: <span class="lang-en">About</span><span class="lang-zh">关于</span>
+  - title: "About"
     url: /
 
-  - title: <span class="lang-en">Publication</span><span class="lang-zh">论文</span>
+  - title: "Publication"
     url: /publications/
 
-  - title: <span class="lang-en">Talks</span><span class="lang-zh">报告</span>
+  - title: "Talks"
     url: /talks/
 
-  - title: <span class="lang-en">News</span><span class="lang-zh">动态</span>
+  - title: "News"
     url: /news/

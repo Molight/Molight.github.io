@@ -1,14 +1,8 @@
 # The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# nav titles are split into en/zh, hidden by [data-lang] CSS.
 
 main:
-  - title: "About"
+  - title: <span class="lang-en">About</span><span class="lang-zh">关于</span>
     url: /
 
   - title: <span class="lang-en">Publication</span><span class="lang-zh">论文</span>

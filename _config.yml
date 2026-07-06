@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yibin Dong"
 title_separator          : "-"
@@ -25,7 +25,7 @@ repository               : "Molight/Molight.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yibin Dong 董怡斌"
+  name             : "Yibin Dong"
   pronouns         : # example: "she/her"
   bio              : "Postdoctoral researcher at Shandong University."
   location         : "Qingdao, Shandong, China"

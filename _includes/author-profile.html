@@ -15,13 +15,13 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name"><span class="lang-en">{{ author.name }}</span><span class="lang-zh">董怡斌</span></h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio"><span class="lang-en">{{ author.bio }}</span><span class="lang-zh">山东大学博士后研究员。</span></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse"><span class="lang-en">Follow</span><span class="lang-zh">关注</span></button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
@@ -31,10 +31,10 @@
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i><span class="lang-en">Website</span><span class="lang-zh">主页</span></a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i><span class="lang-en">Email</span><span class="lang-zh">邮箱</span></a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->

@@ -15,7 +15,7 @@ Recent updates on papers, talks, awards, and milestones.
 
 ## 2026
 
-- **(2026-06)** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
+- **(2026-03)** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
 
 ## 2025
 

@@ -27,15 +27,15 @@ I am **Yibin Dong (董怡斌)**, a postdoctoral researcher at the Institute of F
 
 ---
 
-## 联系方式 / Contact
+## 教育经历 / Education
 
-- 📧 Email: yibindong@sdu.edu.cn
-- 🆔 ORCID: [0000-0003-3933-5783](https://orcid.org/0000-0003-3933-5783)
-- 🔬 Scopus: [Author ID 57552229300](http://www.scopus.com/inward/authorDetails.url?authorID=57552229300)
-- 📘 SciProfiles: [2418199](https://sciprofiles.com/profile/2418199)
-- 🐙 GitHub: [Molight](https://github.com/Molight)
-- 🏛 Affiliation: 山东大学前沿交叉科学研究院 (Institute of Frontier and Interdisciplinary Science, Shandong University)
-- 📍 Address: 青岛市滨海路 72 号 (No.72 Binhai Road, Qingdao, Shandong, P.R. China)
+> 📌 **待 master 补充**。请告知学校 / 学位 / 时间，格式如下：
+
+- 🎓 **博士 PhD in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
+- 🎓 **硕士 MSc in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
+- 🎓 **学士 BSc in [专业]** — [学校 / 学院]，[YYYY-MM] ~ [YYYY-MM]
+
+> 注：联系方式已在右侧头像下方的"Follow"链接中（Email / ORCID / Scopus / GitHub / SciProfiles / Affiliation），桌面端默认展开。
 
 ---
 

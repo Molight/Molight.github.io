@@ -96,9 +96,10 @@ author_profile: true
 
 <div class="pub-chart">
   <div class="pub-chart-title">📊 按年发表论文数量 / Publications by year</div>
-  {% for i in (0..all_years.size | minus: 1) %}
-    {% assign y = all_years[i] %}
-    {% assign c = all_counts[i] %}
+  {% assign year_pairs = all_years | zip: all_counts %}
+  {% for pair in year_pairs %}
+    {% assign y = pair[0] %}
+    {% assign c = pair[1] %}
     {% assign width_pct = c | times: 100 | divided_by: max_count %}
     <div class="pub-chart-row">
       <span class="pub-chart-year">{{ y }}</span>

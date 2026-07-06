@@ -43,8 +43,8 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : # URL
-  scopus           : "http://www.scopus.com/inward/authorDetails.url?authorID=57552229300"
+  researchgate     : "https://www.researchgate.net/profile/Yibin-Dong-2?ev=hdr_xprf"
+  scopus           :
   zotero           : # URL
 
 
@@ -53,7 +53,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           :
-  sciprofiles      : "2418199"  # SciProfiles numeric ID
+  sciprofiles      :  # SciProfiles numeric ID
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 

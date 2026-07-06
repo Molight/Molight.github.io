@@ -20,6 +20,16 @@ I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and 
 **Main tools:** LAMMPS (MD), VASP (DFT), CP2K (AIMD)
 **Applications:** radiation damage · phase transformations · shock loading · fracture mechanics
 
+## Recent News
+
+> Full timeline: see [News](/news/). Last updated 2026-06.
+
+- **[2026-06]** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
+- **[2025-10]** Our paper *"Improved radiation resistance in metals via adaptive martensitic transformation"* has been accepted in **Nature Communications**.
+- **[2025-08]** New paper published in **Acta Materialia** on radiation-defect patterning under ion irradiation.
+- **[2025-06]** PhD degree awarded by Shandong University (Condensed Matter Physics).
+- **[2024-10]** New paper on proton-irradiation-induced melting-point depression accepted in **Journal of Nuclear Materials**.
+
 ## Education
 
 - **Postdoctoral Researcher**, Shandong University — Institute of Frontier and Interdisciplinary Science, 2026 – Present

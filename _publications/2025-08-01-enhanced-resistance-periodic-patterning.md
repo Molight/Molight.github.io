@@ -8,9 +8,3 @@ venue: 'Acta Materialia'
 paperurl: 'https://doi.org/10.1016/j.actamat.2025.120880'
 citation: '<b>Dong, Yibin</b> & Wang, Fei & Setyawan, Wahyu & Gao, Fei & Wang, Xuelin & Gao, Ning (2025). "Enhanced resistance to radiation and magnetic anisotropy change by periodic patterning." <i>Acta Materialia</i>. doi:10.1016/j.actamat.2025.120880'
 ---
-
-## Abstract
-
-_TODO: short 2-3 sentence description of this work. Please replace this placeholder._
-
-**DOI**: [10.1016/j.actamat.2025.120880](https://doi.org/10.1016/j.actamat.2025.120880)

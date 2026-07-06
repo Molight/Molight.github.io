@@ -3,7 +3,6 @@ title: "Effect of Cr and Al on Elastic Constants of FeCrAl Alloys Investigated b
 collection: publications
 category: manuscripts
 permalink: /publication/2022-04-01-cr-al-elastic-constants-fecral
-excerpt: '📌 Metals (2022)'
 date: 2022-04-01
 venue: 'Metals'
 paperurl: 'https://doi.org/10.3390/met12040558'

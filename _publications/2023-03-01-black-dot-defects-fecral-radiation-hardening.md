@@ -3,7 +3,6 @@ title: "The Effect of Black-Dot Defects on FeCrAl Radiation Hardening"
 collection: publications
 category: manuscripts
 permalink: /publication/2023-03-01-black-dot-defects-fecral-radiation-hardening
-excerpt: '📌 Metals (2023)'
 date: 2023-03-01
 venue: 'Metals'
 paperurl: 'https://doi.org/10.3390/met13030458'

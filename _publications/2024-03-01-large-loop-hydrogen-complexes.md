@@ -3,7 +3,6 @@ title: "Formation of large loop-hydrogen complexes and related effects on mechan
 collection: publications
 category: manuscripts
 permalink: /publication/2024-03-01-large-loop-hydrogen-complexes
-excerpt: '📌 Materials Today Communications (2024)'
 date: 2024-03-01
 venue: 'Materials Today Communications'
 paperurl: 'https://doi.org/10.1016/j.mtcomm.2024.108362'

@@ -3,7 +3,6 @@ title: "Effect of radiation defects on grain boundary evolution under shock load
 collection: publications
 category: manuscripts
 permalink: /publication/2024-07-01-radiation-defects-grain-boundary-shock
-excerpt: '📌 Journal of Materials Research and Technology (2024)'
 date: 2024-07-01
 venue: 'Journal of Materials Research and Technology'
 paperurl: 'https://doi.org/10.1016/j.jmrt.2024.06.117'

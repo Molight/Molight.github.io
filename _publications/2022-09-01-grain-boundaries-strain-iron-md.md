@@ -3,7 +3,6 @@ title: "Evolution of Symmetrical Grain Boundaries under External Strain in Iron 
 collection: publications
 category: manuscripts
 permalink: /publication/2022-09-01-grain-boundaries-strain-iron-md
-excerpt: '📌 Metals (2022)'
 date: 2022-09-01
 venue: 'Metals'
 paperurl: 'https://doi.org/10.3390/met12091448'

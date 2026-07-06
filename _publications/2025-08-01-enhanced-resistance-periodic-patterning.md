@@ -3,7 +3,6 @@ title: "Enhanced resistance to radiation and magnetic anisotropy change by perio
 collection: publications
 category: manuscripts
 permalink: /publication/2025-08-01-enhanced-resistance-periodic-patterning
-excerpt: '📌 Acta Materialia (2025)'
 date: 2025-08-01
 venue: 'Acta Materialia'
 paperurl: 'https://doi.org/10.1016/j.actamat.2025.120880'

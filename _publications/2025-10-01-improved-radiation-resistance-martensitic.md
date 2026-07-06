@@ -3,7 +3,6 @@ title: "Improved radiation resistance in metals via adaptive martensitic transfo
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-01-improved-radiation-resistance-martensitic
-excerpt: '📌 Nature Communications (2025)'
 date: 2025-10-01
 venue: 'Nature Communications'
 paperurl: 'https://doi.org/10.1038/s41467-025-66125-9'

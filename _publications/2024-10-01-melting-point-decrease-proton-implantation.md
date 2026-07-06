@@ -3,7 +3,6 @@ title: "Melting point decrease induced by synergistic effect of proton implantat
 collection: publications
 category: manuscripts
 permalink: /publication/2024-10-01-melting-point-decrease-proton-implantation
-excerpt: '📌 Journal of Materials Science (2024)'
 date: 2024-10-01
 venue: 'Journal of Materials Science'
 paperurl: 'https://doi.org/10.1007/s10853-024-10147-z'

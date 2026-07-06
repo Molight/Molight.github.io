@@ -96,7 +96,7 @@ author_profile: true
 
 <div class="pub-chart">
   <div class="pub-chart-title">📊 按年发表论文数量 / Publications by year</div>
-  {% for i in (0..all_years.size) | minus: 1 %}
+  {% for i in (0..all_years.size | minus: 1) %}
     {% assign y = all_years[i] %}
     {% assign c = all_counts[i] %}
     {% assign width_pct = c | times: 100 | divided_by: max_count %}
@@ -113,8 +113,8 @@ author_profile: true
 <!-- 按年分组列出论文 -->
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 {% assign prev_year = "" %}
-{% for pub in sorted_pubs %}
-  {% assign y = pub.date | date: "%Y" %}
+{% for post in sorted_pubs %}
+  {% assign y = post.date | date: "%Y" %}
   {% if y != prev_year %}
     <div class="pub-year-heading">
       <h2 id="year-{{ y }}">{{ y }}</h2><hr />

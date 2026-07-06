@@ -35,9 +35,3 @@ I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and 
 - **Postdoctoral Researcher**, Shandong University — Institute of Frontier and Interdisciplinary Science, 2026 – Present
 - **PhD in Condensed Matter Physics**, Shandong University, 2020 – 2025
 - **BSc in Physics**, Shandong University, 2015 – 2019
-
-## About this site
-
-- [Publication](/publications/) — Peer-reviewed papers
-- [Talks](/talks/) — Conference and invited talks
-- [News](/news/) — Recent updates

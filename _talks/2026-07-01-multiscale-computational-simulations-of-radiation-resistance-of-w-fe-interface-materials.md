@@ -7,5 +7,3 @@ venue: "18th International Conference on Multi-scale Computational Modeling of M
 date: 2026-07-01
 location: "Ningbo, Zhejiang, China"
 ---
-Multiscale (MD + DFT) simulations of W/Fe interface materials and how their defect energetics govern radiation resistance — combining atomic-scale calculations with mesoscale defect evolution.
----

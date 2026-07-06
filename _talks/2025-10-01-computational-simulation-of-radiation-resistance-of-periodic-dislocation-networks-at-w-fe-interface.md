@@ -7,5 +7,3 @@ venue: "12th Symposium on Reactor Physics and Nuclear Materials (第十二届反
 date: 2025-10-01
 location: "Zhuhai, Guangdong, China"
 ---
-Oral presentation on computational simulations (MD + DFT) of periodic dislocation networks at the W/Fe interface and their role in mitigating radiation-induced defects for nuclear structural materials.
----

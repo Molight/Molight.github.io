@@ -7,5 +7,3 @@ venue: "9th China Fusion Reactor Materials Conference (中国聚变堆材料大�
 date: 2025-08-01
 location: "Xi'an, Shaanxi, China"
 ---
-Oral presentation on the influence of periodic dislocation networks on the radiation resistance of the W/Fe interface, with applications to fusion-reactor structural materials.
----

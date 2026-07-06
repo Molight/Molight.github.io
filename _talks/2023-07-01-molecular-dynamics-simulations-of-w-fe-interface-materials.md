@@ -7,5 +7,3 @@ venue: "Chinese Materials Congress 2022-2023 (中国材料大会2022-2023)"
 date: 2023-07-01
 location: "Shenzhen, Guangdong, China"
 ---
-Poster presented at the Chinese Materials Congress on molecular dynamics simulations of W-Fe interface materials, addressing interface stability and defect energetics relevant to fusion-reactor first-wall design.
----

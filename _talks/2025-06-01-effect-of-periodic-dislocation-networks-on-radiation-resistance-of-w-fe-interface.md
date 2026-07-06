@@ -7,5 +7,3 @@ venue: "2025 Annual Conference of the Irradiation Effects Branch, Chinese Nuclea
 date: 2025-06-01
 location: "Chengdu, Sichuan, China"
 ---
-Oral presentation at the Chinese Nuclear Society's 2025 Irradiation Effects Branch conference, covering atomistic simulations of periodic dislocation networks at the W/Fe interface and their role in suppressing irradiation-induced defects.
----

@@ -3,7 +3,7 @@ title: "Computational Simulation Study on Radiation Resistance of Periodic Dislo
 collection: talks
 type: "Conference Talk (Oral)"
 permalink: /talks/2025-10-01-computational-simulation-of-radiation-resistance-of-periodic-dislocation-networks-at-w-fe-interface
-venue: "12th Symposium on Reactor Physics and Nuclear Materials (第十二届反应堆物理与核材料学术研讨会)"
+venue: "12th Symposium on Reactor Physics and Nuclear Materials (第12届反应堆物理与核材料学术研讨会)"
 date: 2025-10-01
 location: "Zhuhai, Guangdong, China"
 ---

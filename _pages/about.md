@@ -11,6 +11,12 @@ redirect_from:
 
 I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and Interdisciplinary Science, Shandong University (Qingdao, China).
 
+## Education
+
+- **Postdoctoral Researcher**, Shandong University — Institute of Frontier and Interdisciplinary Science, 2026 – Present
+- **PhD in Condensed Matter Physics**, Shandong University, 2020 – 2025
+- **BSc in Physics**, Shandong University, 2015 – 2019
+
 ## Research Interests
 
 - **Atomistic simulations of defects, interfaces and their motions & interactions**
@@ -29,9 +35,3 @@ I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and 
 - **[2025-10]** Our paper *"Improved radiation resistance in metals via adaptive martensitic transformation"* has been accepted in **Nature Communications** *(co-first author)*.
 - **[2025-08]** Our paper *"Enhanced radiation resistance by periodic patterning"* has been accepted in **Acta Materialia**.
 - **[2024-07]** Our paper *"Effect of radiation defects on grain boundary evolution under shock loading"* has been accepted in **Journal of Materials Research and Technology** *(co-first author)*.
-
-## Education
-
-- **Postdoctoral Researcher**, Shandong University — Institute of Frontier and Interdisciplinary Science, 2026 – Present
-- **PhD in Condensed Matter Physics**, Shandong University, 2020 – 2025
-- **BSc in Physics**, Shandong University, 2015 – 2019

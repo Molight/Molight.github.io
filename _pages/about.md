@@ -18,6 +18,7 @@ I am **Yibin Dong**, a postdoctoral researcher at the Institute of Frontier and 
 - **Multiscale computational methods** — Molecular Dynamics (MD), Density Functional Theory (DFT), Ab Initio Molecular Dynamics (AIMD)
 
 **Main tools:** LAMMPS (MD), VASP (DFT), CP2K (AIMD)
+
 **Applications:** radiation damage · phase transformations · shock loading · fracture mechanics
 
 ## Recent News

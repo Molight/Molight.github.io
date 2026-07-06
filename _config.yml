@@ -11,6 +11,7 @@ locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Molight"
 title_separator          : "-"
+masthead_site_title      : false  # set true to show site title (Molight) in nav, false to hide
 name                     : &name "Molight"
 description              : &description "Molight 的学术主页 — Postdoctoral Researcher"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://Molight.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",

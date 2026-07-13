@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-## 📰 Latest News
-
 Recent updates on papers, talks, awards, and milestones.
 
 ---

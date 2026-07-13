@@ -50,10 +50,4 @@ bundle exec jekyll serve -l -H 0.0.0.0
 
 ## 待补充清单 / TODO
 
-- [ ] 头像照片 → 替换 `images/profile.png`（当前是 M 占位符）
-- [ ] 下载版 CV PDF → 放 `files/Yibin_Dong_CV.pdf`，然后在 `_pages/cv.md` 加下载链接
-- [ ] Google Scholar 链接（如有） → `_config.yml` → `author.googlescholar`
-- [ ] 第一篇博客文章（`_posts/`）
-- [ ] 真实教学经历（如有）→ `_teaching/`
-- [ ] 删除 `0001-01-01-example-*` 占位文件（已部分完成：仅剩 `_teaching/example-teaching.md`）
 

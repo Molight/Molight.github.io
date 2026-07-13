@@ -1,0 +1,73 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="wordwrap" style="margin: 0.5em 0 1em 0;">
+  Research projects I am leading or participating in.
+</div>
+
+<style>
+  .proj-year-heading {
+    margin-top: 2em;
+    padding-top: 0.6em;
+  }
+  .proj-year-heading .year-rule {
+    border: none;
+    border-top: 1px solid var(--global-border-color, #e0e0e0);
+    margin: 0.2em 0;
+  }
+  .proj-year-heading h2 {
+    margin: 0.4em 0 0.2em 0;
+  }
+  .proj-year-heading hr.bottom {
+    border: none;
+    border-top: 1px solid var(--global-border-color, #e0e0e0);
+    margin: 0.2em 0 0.6em 0;
+  }
+  .proj-numbered {
+    list-style-type: decimal;
+    padding-left: 2em;
+    margin-bottom: 1em;
+  }
+  .proj-numbered > li {
+    margin-bottom: 0.8em;
+  }
+  .role-pi { color: #2a7ae2; font-weight: 600; }
+  .role-co-pi { color: #4a8; font-weight: 600; }
+  .role-participant { color: #888; }
+</style>
+
+{% assign sorted_projs = site.projects | sort: "date" | reverse %}
+{% assign prev_year = "" %}
+
+{% for post in sorted_projs %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y != prev_year %}
+    {% if prev_year != "" %}</ul>{% endif %}
+    <div class="proj-year-heading">
+      <hr class="year-rule">
+      <h2>{{ y }}</h2>
+      <hr class="bottom">
+    </div>
+    <ul class="proj-numbered">
+    {% assign prev_year = y %}
+  {% endif %}
+  <li>
+    {% if post.role == "PI" %}
+      <span class="role-pi">[PI]</span>
+    {% elsif post.role == "Co-PI" %}
+      <span class="role-co-pi">[Co-PI]</span>
+    {% else %}
+      <span class="role-participant">[Participant]</span>
+    {% endif %}
+    <b>{{ post.title }}</b>
+    {% if post.sponsor %}<i>({{ post.sponsor }})</i>{% endif %}
+    {% if post.permalink %}<a href="{{ post.permalink }}">[详情]</a>{% endif %}
+  </li>
+{% endfor %}
+{% if prev_year != "" %}</ul>{% endif %}

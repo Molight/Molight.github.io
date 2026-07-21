@@ -13,7 +13,6 @@ Recent updates on papers, talks, awards, and milestones.
 
 ## 2026
 
-- **(2026-07-12)** Presented a poster on "Multiscale Computational Simulations of Radiation Resistance of W/Fe Interface Materials" (W/Fe材料界面抗辐照性能的多尺度计算模拟研究) at Chinese Materials Congress 2026 (中国材料大会2026), Wuhan.
 - **(2026-07-03)** Won **Best Poster Award** at the 18th International Conference on Multi-scale Computational Modeling of Materials (第18届材料多尺度计算模拟国际会议).
 - **(2026-03)** Joined Shandong University (Institute of Frontier and Interdisciplinary Science) as a Postdoctoral Researcher.
 

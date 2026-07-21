@@ -3,7 +3,7 @@ title: "Multiscale Computational Simulations of Radiation Resistance of W/Fe Int
 collection: talks
 type: "Conference Poster"
 permalink: /talks/2026-07-12-multiscale-computational-simulations-of-radiation-resistance-of-w-fe-interface-materials
-venue: "中国材料大会2026 (Chinese Materials Congress 2026)"
+venue: "Chinese Materials Congress 2026 (中国材料大会2026)"
 date: 2026-07-12
 location: "Wuhan, Hubei, China"
 ---

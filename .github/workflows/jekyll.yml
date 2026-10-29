@@ -48,6 +48,14 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Preserve old homepage and install the reviewed academic homepage
+        run: |
+          mkdir -p _site/previous-homepage
+          cp _site/index.html _site/previous-homepage/index.html
+          cp homepage/index.html homepage/style.css homepage/app.js homepage/profile.jpg homepage/favicon.svg _site/
+          test -s _site/index.html
+          test -s _site/previous-homepage/index.html
+          grep -q 'id="profile-name"' _site/index.html
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

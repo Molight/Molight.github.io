@@ -52,7 +52,13 @@ jobs:
         run: |
           mkdir -p _site/previous-homepage
           cp _site/index.html _site/previous-homepage/index.html
+          cp -R _site/publications _site/previous-homepage/publications
+          cp -R _site/talks _site/previous-homepage/talks
           cp homepage/index.html homepage/style.css homepage/app.js homepage/profile.jpg homepage/favicon.svg _site/
+          cp homepage/publications/index.html _site/publications/index.html
+          cp homepage/talks/index.html _site/talks/index.html
+          test -s _site/publications/index.html
+          test -s _site/talks/index.html
           test -s _site/index.html
           test -s _site/previous-homepage/index.html
           grep -q 'id="profile-name"' _site/index.html

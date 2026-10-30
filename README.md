@@ -37,3 +37,23 @@ named "Publish reviewed blue-and-white academic homepage; preserve old site" on
 All displayed scholarly claims and publication details must be checked against
 the owner's verified records. Do not publish unfinished Wiki project results
 as established findings.
+
+
+## Selected home-page items and full lists
+
+The home page shows two selected papers and three recent presentations.
+Its "View all publications" and "View all talks" links open the full lists at
+`/publications/` and `/talks/`, using the same academic design and header.
+
+- `homepage/publications/index.html`: complete initial publication list.
+- `homepage/app.js`: publication dataset and progressive search/year filters;
+  keep the initial publication HTML and counts in sync when editing the dataset.
+- `homepage/talks/index.html`: complete presentations, ordered by the verified
+  front-matter dates. Dates in legacy file names can differ from event dates.
+
+The deployment keeps the original generated listings under
+`/previous-homepage/publications/` and `/previous-homepage/talks/` before
+installing the new listings. Individual legacy detail routes remain available.
+The publication script initializes its controls only on pages that contain the
+full list; contact controls are optional on the list pages. Asset URLs are
+versioned so returning visitors receive matching scripts and styles.

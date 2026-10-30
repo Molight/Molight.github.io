@@ -36,3 +36,20 @@
 .brand-email{color:#2b73b4}
 .brand-email:hover{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:600px){.site-header .brand{gap:3px}.brand-affiliation,.brand-email{font-size:10.5px}}
+
+/* Selected items on the home page; complete academic lists on their own pages. */
+.section-actions{margin-top:30px}
+#publications .featured-papers{margin-bottom:0}
+.activity-heading .button{margin-top:0}
+.listing-page{padding-top:55px;padding-bottom:80px;min-height:65vh}
+.listing-heading{margin-bottom:38px}
+.listing-heading>.text-link{margin-bottom:24px;color:var(--muted)}
+.listing-heading h1{font:550 44px/1.2 var(--sans);letter-spacing:-1px;margin:0}
+.listing-page .publication-authors,.listing-page .publication-journal{font-size:11px}
+.site-header nav a[aria-current="page"]{color:#2b73b4;font-weight:600}
+.talk-year{display:grid;grid-template-columns:90px minmax(0,1fr);gap:40px;margin-top:38px}
+.talk-year>h2{font:500 24px/1.4 var(--sans);letter-spacing:0;padding-top:25px}
+.talk-year .activity-list article{grid-template-columns:110px minmax(0,1fr)}
+.talk-year .activity-type{font-size:9px}
+.talk-entry h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){.listing-page{padding-top:34px;padding-bottom:55px}.listing-heading{margin-bottom:28px}.listing-heading h1{font-size:34px}.talk-year{display:block;margin-top:30px}.talk-year>h2{font-size:22px;padding-top:0;margin-bottom:18px}.talk-year .activity-list article{grid-template-columns:68px minmax(0,1fr);gap:15px}.talk-year .activity-list time{font-size:9px;line-height:1.7}.section-actions{margin-top:25px}}

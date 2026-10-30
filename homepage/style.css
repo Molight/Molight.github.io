@@ -27,3 +27,12 @@
 .academic-section-heading h2{font-family:var(--sans);font-size:34px;line-height:1.25;font-weight:550;letter-spacing:-.7px;color:var(--ink);margin:0}
 .activity-heading.academic-section-heading h2{margin-bottom:24px}
 @media(max-width:600px){.academic-section-heading h2{font-size:29px}.section-heading.academic-section-heading{margin-bottom:25px}}
+
+/* Three-line academic identity in the page header. */
+.site-header .brand{flex-direction:column;align-items:flex-start;gap:4px;line-height:1.25;flex-shrink:0}
+.brand-name{font-size:16px;font-weight:600}
+.brand-affiliation,.brand-email{font-size:11px;font-weight:400;letter-spacing:0}
+.brand-affiliation{color:var(--muted)}
+.brand-email{color:#2b73b4}
+.brand-email:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.site-header .brand{gap:3px}.brand-affiliation,.brand-email{font-size:10.5px}}

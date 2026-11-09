@@ -49,7 +49,11 @@ Its "View all publications" and "View all talks" links open the full lists at
 - `homepage/app.js`: publication dataset and progressive search/year filters;
   keep the initial publication HTML and counts in sync when editing the dataset.
 - `homepage/talks/index.html`: complete presentations, ordered by the verified
-  front-matter dates. Dates in legacy file names can differ from event dates.
+  event dates. Dates in legacy file names can differ from event dates.
+  When the owner supplies only a month, retain month precision (for example,
+  `datetime="2026-10"` displayed as Oct 2026); do not invent a day or a legacy
+  dated collection entry. The latest three presentations appear on the home
+  page; keep their titles, venues and awards in sync with the full list.
 
 The deployment keeps the original generated listings under
 `/previous-homepage/publications/` and `/previous-homepage/talks/` before
